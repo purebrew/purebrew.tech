@@ -16,7 +16,7 @@ body {
 }
 
 a {
-  color: #17bdba;
+  color: #0abafe;
   transition: 0.5s;
 }
 
@@ -50,7 +50,7 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #17bdba;
+  background: #0abafe;
   color: #fff;
   padding: 6px 12px 9px 12px;
   font-size: 16px;
@@ -61,7 +61,7 @@ h6 {
 }
 
 .back-to-top:focus {
-  background: #17bdba;
+  background: #0abafe;
   color: #fff;
   outline: none;
 }
@@ -88,11 +88,11 @@ h6 {
 }
 
 #topbar .contact-info a:hover {
-  color: #17bdba;
+  color: #0abafe;
 }
 
 #topbar .contact-info i {
-  color: #17bdba;
+  color: #0abafe;
   padding: 4px;
 }
 
@@ -111,7 +111,7 @@ h6 {
 }
 
 #topbar .social-links a:hover {
-  color: #17bdba;
+  color: #0abafe;
 }
 
 #topbar .social-links a:first-child {
@@ -132,27 +132,32 @@ h6 {
 }
 
 #header #logo h1 {
-  font-size: 42px;
+  font-size: 30px;
   margin: 0;
   padding: 0;
   line-height: 1;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
+  display: flex;
+  align-items: center;
 }
 
 #header #logo h1 a {
-  color: #494947;
+  color: #076bb0;
+  font-weight: 400;
   line-height: 1;
   display: inline-block;
 }
 
 #header #logo h1 a span {
-  color: #17bdba;
+  color: #0abafe;
+  font-weight: 700;
 }
 
 #header #logo img {
   padding: 0;
-  margin: 0;
+  margin: 0 10px 0 0;
+  height: 46px;
 }
 
 /*--------------------------------------------------------------
@@ -202,7 +207,7 @@ h6 {
 }
 
 #intro .intro-content h2 span {
-  color: #17bdba;
+  color: #0abafe;
   text-decoration: underline;
 }
 
@@ -231,13 +236,13 @@ h6 {
 }
 
 #intro .intro-content .btn-projects {
-  background: #17bdba;
-  border: 2px solid #17bdba;
+  background: #0abafe;
+  border: 2px solid #0abafe;
 }
 
 #intro .intro-content .btn-projects:hover {
   background: none;
-  color: #17bdba;
+  color: #0abafe;
 }
 
 #intro #intro-carousel {
@@ -351,7 +356,7 @@ h6 {
 
 .nav-menu li:hover > a,
 .nav-menu .menu-active > a {
-  color: #17bdba;
+  color: #0abafe;
 }
 
 .nav-menu > li {
@@ -379,7 +384,7 @@ h6 {
 }
 
 .nav-menu ul li:hover > a {
-  color: #17bdba;
+  color: #0abafe;
 }
 
 .nav-menu ul ul {
@@ -462,11 +467,11 @@ h6 {
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #17bdba;
+  color: #0abafe;
 }
 
 #mobile-nav ul .menu-item-active {
-  color: #17bdba;
+  color: #0abafe;
 }
 
 #mobile-body-overly {
@@ -520,7 +525,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: block;
   width: 50px;
   height: 3px;
-  background: #17bdba;
+  background: #0abafe;
   bottom: 0;
   left: 0;
 }
@@ -542,7 +547,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-img img {
-  margin-left: -15px;
   max-width: 100%;
 }
 
@@ -572,7 +576,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about .content i {
   font-size: 20px;
   padding-right: 4px;
-  color: #17bdba;
+  color: #0abafe;
 }
 
 #about .content ul {
@@ -620,7 +624,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #services .box .icon i:before {
   background: #494947;
-  background: linear-gradient(45deg, #17bdba 0%, #a3ebd5 100%);
+  background: linear-gradient(45deg, #076bb0 0%, #0abafe 100%);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -686,7 +690,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #clients .owl-dot.active {
-  background-color: #17bdba;
+  background-color: #0abafe;
 }
 
 /* Our Portfolio Section
@@ -820,7 +824,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #testimonials .owl-dot.active {
-  background-color: #17bdba;
+  background-color: #0abafe;
 }
 
 /* Call To Action Section
@@ -857,8 +861,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #call-to-action .cta-btn:hover {
-  background: #17bdba;
-  border: 3px solid #17bdba;
+  background: #0abafe;
+  border: 3px solid #0abafe;
 }
 
 /* Our Team Section
@@ -884,7 +888,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #team .member .details {
-  background: #17bdba;
+  background: #076bb0;
   color: #fff;
   padding: 15px;
   border-radius: 0 0 3px 3px;
@@ -931,7 +935,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 48px;
   display: inline-block;
   margin-bottom: 10px;
-  color: #17bdba;
+  color: #0abafe;
 }
 
 #contact .contact-info address,
@@ -953,7 +957,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .contact-info a:hover {
-  color: #17bdba;
+  color: #0abafe;
 }
 
 #contact .contact-address,
@@ -968,8 +972,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form #sendmessage {
-  color: #17bdba;
-  border: 1px solid #17bdba;
+  color: #0abafe;
+  border: 1px solid #0abafe;
   display: none;
   text-align: center;
   padding: 15px;
@@ -1010,7 +1014,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"] {
-  background: #17bdba;
+  background: #0abafe;
   border: 0;
   border-radius: 3px;
   padding: 10px 30px;

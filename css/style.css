@@ -31,6 +31,7 @@ a:focus {
 p {
   padding: 0;
   margin: 0 0 30px 0;
+  text-align: justify;
 }
 
 h1,
@@ -563,6 +564,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 18px;
   line-height: 26px;
   font-style: italic;
+  text-align: justify;
 }
 
 #about .content p {
@@ -873,6 +875,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 30px 0 0 0;
 }
 
+#team .row {
+  align-items: flex-start;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
 #team .member {
   text-align: center;
   margin-bottom: 20px;
@@ -917,6 +926,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 #team .member .social i {
   font-size: 16px;
   margin: 0 2px;
+}
+
+#career .row {
+  margin-left: 0;
+  margin-right: 0;
 }
 
 /* Contact Section
